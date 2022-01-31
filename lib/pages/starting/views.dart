@@ -39,7 +39,7 @@ class _StartingPageState extends State<StartingPage> {
     return [
       PageViewModel(
         image: Image.network(
-            'https://image.freepik.com/free-vector/young-family-couple-characters-talking-male-psychologist-about-their-problems-concept-psychoth_119217-2734.jpg'),
+            'https://www.iisd.org/sites/default/files/styles/og_image/public/2020-06/RS2085_food-agriculture-topic.jpg?itok=cM6jCv9Q'),
         titleWidget: Text(
           "",
           style: TextStyle(
@@ -56,7 +56,7 @@ class _StartingPageState extends State<StartingPage> {
       ),
       PageViewModel(
         image: Image.network(
-            'https://image.freepik.com/free-vector/interest-deposit-profitable-investment-fixed-income-regular-payments-recurring-cash-receipts-money-recipient-with-calendar-cartoon-character-vector-isolated-concept-metaphor-illustration_335657-2866.jpg'),
+            'https://assets.thehansindia.com/h-upload/2020/05/26/972142-agriculture-policy.jpg?width=500&height=300'),
         titleWidget: Text(
           "",
           style: TextStyle(
@@ -73,7 +73,7 @@ class _StartingPageState extends State<StartingPage> {
       ),
       PageViewModel(
         image: Image.network(
-            'https://img.freepik.com/free-vector/family-couple-psychologist-session-flat-cartoon-vector-illustration-isolated_181313-1619.jpg?size=338&ext=jpg'),
+            'https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/01/full/1598901801-2753.jpg'),
         body:
             'Always do your best what you plant now, you will harvest later!',
         footer: Text('Finish'),

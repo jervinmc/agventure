@@ -18,7 +18,7 @@ class _TutorialState extends State<Tutorial> {
     super.initState();
     if(args[0]=='Bittergourd'){
         _controller = VideoPlayerController.network(
-        'https://agadventure.s3.us-east-2.amazonaws.com/Ampalaya+Farming_+How+to+Grow+Ampalaya+or+Bittergourd+-+High+Yield%2C+High+Income.mp4')
+        'https://acnes012022.s3.ap-southeast-1.amazonaws.com/Ampalaya+Farming_+How+to+Grow+Ampalaya+or+Bittergourd+-+High+Yield%2C+High+Income.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
@@ -26,7 +26,7 @@ class _TutorialState extends State<Tutorial> {
     }
     else if(args[0]=='String Beans'){
         _controller = VideoPlayerController.network(
-        'https://agadventure.s3.us-east-2.amazonaws.com/Sitaw+Planting_+How+to+Plant+String+Beans+from+Seeds+to+Harvest.mp4')
+        'https://acnes012022.s3.ap-southeast-1.amazonaws.com/Sitaw+Planting_+How+to+Plant+String+Beans+from+Seeds+to+Harvest.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
@@ -34,7 +34,7 @@ class _TutorialState extends State<Tutorial> {
     }
     else if(args[0]=='Chili Red Pepper'){
         _controller = VideoPlayerController.network(
-        'https://agadventure.s3.us-east-2.amazonaws.com/Siling+Labuyo_+How+to+Plant+Siling+Labuyo%2C+Siling+Taiwan+or+Siling+Tingala.mp4')
+        'https://acnes012022.s3.ap-southeast-1.amazonaws.com/Siling+Labuyo_+How+to+Plant+Siling+Labuyo%2C+Siling+Taiwan+or+Siling+Tingala.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
@@ -42,7 +42,7 @@ class _TutorialState extends State<Tutorial> {
     }
     else if(args[0]=='Pumpkin'){
          _controller = VideoPlayerController.network(
-        'https://agadventure.s3.us-east-2.amazonaws.com/Squash+Planting+Tips_+How+to+Plant+Squash+in+the+Philippines.mp4')
+        'https://acnes012022.s3.ap-southeast-1.amazonaws.com/Squash+Planting+Tips_+How+to+Plant+Squash+in+the+Philippines.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});
@@ -50,7 +50,7 @@ class _TutorialState extends State<Tutorial> {
     }
     else if(args[0]=='Ladies Finger'){
         _controller = VideoPlayerController.network(
-        'https://agadventure.s3.us-east-2.amazonaws.com/Okra+Farming+in+the+Philippines_+Have+Daily+Income+in+Okra+Farming.mp4')
+        'https://acnes012022.s3.ap-southeast-1.amazonaws.com/Okra+Farming+in+the+Philippines_+Have+Daily+Income+in+Okra+Farming.mp4')
       ..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized, even before the play button has been pressed.
         setState(() {});

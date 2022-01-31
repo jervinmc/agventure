@@ -32,7 +32,7 @@ class _VegetableListState extends State<VegetableList> {
                   ),
                   title: 'Chili Red Pepper',
                   image: "assets/images/chili_pepper.jpg",
-                  subtitle: 'Nemo enim ipsam voluptatem quia',
+                  subtitle: '',
                   color: Color(0xff06611F),
                   func: () {
                     Get.toNamed('/tutorial',arguments: ['Chili Red Pepper']);
@@ -46,7 +46,7 @@ class _VegetableListState extends State<VegetableList> {
                   ),
                   title: 'Bittergourd',
                   image: "assets/images/ampalaya.jpeg",
-                  subtitle: 'Nemo enim ipsam voluptatem quia',
+                  subtitle: '',
                   color: Color(0xff06611F),
                   func: () {
                     Get.toNamed('/tutorial',arguments: ['Bittergourd']);
@@ -60,7 +60,7 @@ class _VegetableListState extends State<VegetableList> {
                   ),
                   title: 'String Beans',
                   image: "assets/images/sitaw.jpeg",
-                  subtitle: 'Nemo enim ipsam voluptatem quia',
+                  subtitle: '',
                   color: Color(0xff06611F),
                   func: () {
                     Get.toNamed('/tutorial',arguments: ['String Beans']);
@@ -74,7 +74,7 @@ class _VegetableListState extends State<VegetableList> {
                   ),
                   image: "assets/images/okra.jpeg",
                   title: 'Ladies Finger',
-                  subtitle: 'Nemo enim ipsam voluptatem quia',
+                  subtitle: '',
                   color: Color(0xff06611F),
                   func: () {
                     Get.toNamed('/tutorial',arguments: ['Ladies Finger']);
@@ -86,8 +86,8 @@ class _VegetableListState extends State<VegetableList> {
                     color: Colors.white,
                     size: 25.0,
                   ),
-                  title: 'Pumpkin',
-                  subtitle: 'Nemo enim ipsam voluptatem quia',
+                  title: 'Squash',
+                  subtitle: '',
                   image: "assets/images/pumnkin.jpeg",
                   color: Color(0xff06611F),
                   func: () {
